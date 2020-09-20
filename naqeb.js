@@ -237,7 +237,7 @@ naqeb.on("message", message => {
   }
 });
 naqeb.on("message", message => {
-  if (message.content === prefix + "lock") {
+  if (message.content === prefix + "1") {
     if (!message.channel.guild)
       return message.reply(" This command only for servers");
 
@@ -252,7 +252,7 @@ naqeb.on("message", message => {
       });
   }
   //FIRE BOT
-  if (message.content === prefix + "unlock") {
+  if (message.content === prefix + "2") {
     if (!message.channel.guild)
       return message.reply(" This command only for servers");
 
